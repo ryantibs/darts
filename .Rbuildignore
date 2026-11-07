@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^README\.Rmd$
+^.*\.jpg$
+^\.Rhistory$
+^LICENSE\.md$
+^data-raw$
