@@ -37,7 +37,7 @@ an arbitrary covariance matrix.
 library(darts)
 
 fit <- simpleEM(throws)
-sqrt(fit$s.final) # std dev, in mm 
+sqrt(fit$s.final) 
 #> [1] 28.26708 
 ```
 
