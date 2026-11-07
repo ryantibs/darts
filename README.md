@@ -37,8 +37,8 @@ an arbitrary covariance matrix.
 library(darts)
 
 fit <- simpleEM(throws)
-sqrt(fit$s.final) 
-#> [1] 28.26708 # std dev, in mm
+sqrt(fit$s.final) # std dev, in mm 
+#> [1] 28.26708 
 ```
 
 Then compute your expected score for every aiming location, find the best
