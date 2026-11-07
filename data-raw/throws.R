@@ -1,5 +1,5 @@
-# Scores of 100 throws aimed at the center of the board, from the original
-# (2011) version of the package
+# Scores of 100 throws by Andrew Price aimed at the center of the board, from
+# the original (2011) version of the package
 throws <- c(12L, 16L, 19L, 3L, 17L, 1L, 25L, 19L, 17L, 50L, 18L, 1L, 3L, 17L,
             2L, 2L, 13L, 18L, 16L, 2L, 25L, 5L, 5L, 1L, 5L, 4L, 17L, 25L, 25L,
             50L, 3L, 7L, 17L, 17L, 3L, 3L, 3L, 7L, 11L, 10L, 25L, 1L, 19L, 15L,
