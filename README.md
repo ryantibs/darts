@@ -37,11 +37,8 @@ an arbitrary covariance matrix.
 library(darts)
 
 fit <- simpleEM(throws)
-fit$s.final
-#> [1] 799.028
-
-fit2 <- generalEM(throws, seed = 0)
-fit2$Sig.final
+sqrt(fit$s.final) 
+#> [1] 28.26708 # std dev, in mm
 ```
 
 Then compute your expected score for every aiming location, find the best
@@ -57,5 +54,4 @@ par(mar = c(0, 0, 0, 0))
 drawHeatmap(e, board = TRUE, aim = TRUE)
 ```
 
-Coordinates are in millimeters from the center of the board, with the 20 at
-the top.
+Coordinates are in millimeters from the center of the board.
